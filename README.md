@@ -11,6 +11,8 @@ includes content from:
 
 ***
 List of people:  
-* Matt van der Meer (mvdm)  
+* Matt van der Meer (mvdm) 
+* Jose Duhart- Fundacion Instituto Leloir - Understanding circuit logic of circadian clock
+* Nagaraj Mahajan- Graduate student, JHU. Spatial selection and attention.  
 
 
