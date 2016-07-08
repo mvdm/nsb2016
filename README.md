@@ -11,6 +11,9 @@ includes content from:
 
 ***
 List of people:  
-* Matt van der Meer (mvdm)  
-
+* Matt van der Meer (mvdm) 
+* Jose Duhart- Fundacion Instituto Leloir - Understanding circuit logic of circadian clock
+* Nagaraj Mahajan- Graduate student, JHU. Spatial selection and attention.  
+* Shuting Han <hanshuting> - Columbia University - Machine learning analysis of Hydra behaviors
+* Yang Yang - Chinese Academy of Sciences - two-photon imaging in mouse cortex
 
