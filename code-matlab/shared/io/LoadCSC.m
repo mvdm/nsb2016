@@ -174,12 +174,13 @@ for hline = 1:length(Header)
    
     line = strtrim(Header{hline});
     
-    if isempty(line) | ~strcmp(line(1),'-') % not an informative line, skip
+    if isempty(line) || ~strcmp(line(1),'-') % not an informative line, skip
         continue;
     end
     
-    a = regexp(line(2:end),'(?<key>\w+)\s+(?<val>\S+)','names');
-    
+%     a = regexp(line(2:end),'(?<key>\w+)\s+(?<val>\S+)','names');
+    a = regexp(line(2:end),'(?<key>^\S+)\s+(?<val>.*)|(?<key>\S+)','names');
+
     % deal with characters not allowed by MATLAB struct
     if strcmp(a.key,'DspFilterDelay_µs')
         a.key = 'DspFilterDelay_us';
