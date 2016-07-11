@@ -44,7 +44,7 @@ cfg_def.MarkerSize = 10;
 cfg_def.iv_only = 0; % if 1, don't plot tsd
 cfg_def.title = [];
 
-cfg = ProcessConfig(cfg_def,cfg_in); % should take whatever is in cfg_in and put it into cfg!
+cfg = ProcessConfig2(cfg_def,cfg_in); % should take whatever is in cfg_in and put it into cfg!
 mfun = mfilename;
 
 % check if conditions are in place
