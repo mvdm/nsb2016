@@ -49,7 +49,7 @@ cfg_def.fc = {};
 cfg_def.verbose = 1;
 
 mfun = mfilename;
-cfg = ProcessConfig(cfg_def,cfg_in,mfun);
+cfg = ProcessConfig2(cfg_def,cfg_in);
 
 % potential anger avoidance?: 
 if ~isa(cfg.fc,'cell')
