@@ -56,7 +56,7 @@ if ~CheckIV(iv_in,mfun)
 end
 
 % parse cfg parameters
-cfg = ProcessConfig(cfg_def,cfg_in,mfun);
+cfg = ProcessConfig2(cfg_def,cfg_in,mfun);
 
 if isempty(iv_in.tstart)
     if cfg.verbose
