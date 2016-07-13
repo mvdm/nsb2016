@@ -41,12 +41,12 @@ cfg_def.tsflag = 'sec';
 cfg_def.load_questionable_cells = 0;
 cfg_def.min_cluster_quality = 5;
 cfg_def.getRatings = 0;
-cfg_def.getTTnumbers = 1;
+cfg_def.getTTnumbers = 0;
 cfg_def.verbose = 1;
 cfg_def.uint = '32';
 
 mfun = mfilename;
-cfg = ProcessConfig(cfg_def,cfg_in,mfun); % this takes fields from cfg_in and puts them into cfg
+cfg = ProcessConfig2(cfg_def,cfg_in); % this takes fields from cfg_in and puts them into cfg
 
 if ~isempty(cfg.fc)
     % can't get ratings for .tt files, also can't load questionable cells
@@ -220,4 +220,4 @@ end
 [~,S.cfg.SessionID,~] = fileparts(pwd);
 
 % housekeeping
-S = History(S,mfun,cfg);
+%S = History(S,mfun,cfg);
